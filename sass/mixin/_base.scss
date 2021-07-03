@@ -1,0 +1,6 @@
+@mixin no-of-lines($lines-to-show) {
+    -webkit-line-clamp: $lines-to-show;
+    -moz-line-clamp: $lines-to-show;
+    -o-line-clamp: $lines-to-show;
+    -ms-line-clamp: $lines-to-show;
+}

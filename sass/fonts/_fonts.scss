@@ -1,0 +1,88 @@
+$fontPath: "../../fonts";
+
+/* ========================== Import Fonts ============================*/
+
+@font-face {
+    font-family: 'Droid';
+    src: url('#{$fontPath}/Droid-Naskh-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GEFont';
+    src: url('#{$fontPath}/ge_ss_two_medium.eot');
+    src: url('#{$fontPath}/ge_ss_two_medium.eot?#iefix')format('embedded-opentype'),
+    url('#{$fontPath}/ge_ss_two_medium.svg') format('svg'),
+    url('#{$fontPath}/ge_ss_two_medium.ttf') format('truetype'),
+    url('#{$fontPath}/ge_ss_two_medium.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'nagwa';
+    src:  url('#{$fontPath}/nagwa.eot?ou47iz');
+    src:  url('#{$fontPath}/nagwa.eot?ou47iz#iefix') format('embedded-opentype'),
+      url('#{$fontPath}/nagwa.ttf?ou47iz') format('truetype'),
+      url('#{$fontPath}/nagwa.woff?ou47iz') format('woff'),
+      url('#{$fontPath}/nagwa.svg?ou47iz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'nagwa' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook .path1:before {
+    content: "\e900";
+    color: rgb(59, 89, 152);
+  }
+  .icon-facebook .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-twitter .path1:before {
+    content: "\e902";
+    color: rgb(85, 172, 238);
+  }
+  .icon-twitter .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(241, 242, 242);
+  }
+  .icon-youtube .path1:before {
+    content: "\e904";
+    color: rgb(212, 36, 40);
+  }
+  .icon-youtube .path2:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(204, 32, 45);
+  }
+  .icon-youtube .path3:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(186, 32, 46);
+  }
+  .icon-youtube .path4:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  

@@ -1,0 +1,73 @@
+.login-page {
+    display: flex;
+    height: calc(100vh - 5.4375rem);
+    @media screen and (max-width:992px){
+        flex-direction: column;
+    }
+    @media screen and (max-width:567px){
+        height: auto;
+    }
+    > div {
+        width: 50%;
+        height: 100%;
+        padding: 2rem 5.625rem;
+        align-items: center;
+        display: flex;
+        @media screen and (max-width:992px){
+            width: 100%;
+        }
+    }
+    .login-right-side {
+        background: $secondary-color;
+        justify-content: flex-end;
+        @media screen and (max-width:992px){
+            justify-content: center;
+            padding: 2rem;
+        }
+        .teacher-info {
+            text-align: center;
+            img {
+                border-radius: 50%;
+                width: 15.625rem;
+                height: 15.625rem;
+                margin-bottom: 1.25rem;
+            }
+            h1{
+                color:$primary-color;
+                font-size: 1.875rem;
+                margin-bottom: 0.3125rem;
+            }
+            p{
+                color: #333333;
+                &.desc{
+                    max-width: 29.375rem;                   
+                    font-family: 'Droid';
+                    margin-bottom: 2.8125rem;
+                }
+                &.speciality{
+                    margin-bottom: 2.8125rem;
+                    line-height: 1;
+                }
+            }
+            .social-media{
+                >a{
+                    margin-#{$left}: 15px;
+                    display: inline-block;
+                    transition: all 0.3s ease-in-out;
+                    position: relative;
+                    top:0 ;
+                    &:last-of-type{
+                        margin-#{$left}: 0px;
+                    }
+                    &:hover{
+                        top: -2px;
+                        text-decoration: none;
+                    }
+                    span {
+                        font-size: 3.5rem;
+                    }
+                }          
+            } 
+        }
+    }
+} 

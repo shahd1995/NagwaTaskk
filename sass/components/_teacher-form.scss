@@ -1,0 +1,61 @@
+.login-left-side{
+    background:$primary-color;
+    justify-content: flex-start;
+    @media screen and (max-width:992px){
+        justify-content: center;
+        padding: 8rem 2rem !important;
+    }
+    form {
+        text-align: center;
+        h2{
+            color:#fff;
+            font-size: 1.75rem;
+            margin-bottom: 2.8125rem;
+        }
+        .form-group {
+            margin-bottom: 0.9rem;
+            input{
+                width: 29.625rem;
+                height: 2.8125rem;
+                border-radius: 4px;
+                border: 1px solid #9FBED8;
+                background: transparent;
+                font-size: 1.125rem;
+                color: #fff;
+                @media screen and (max-width:400px){
+                    width: 25rem;
+                }
+            }
+            ::-webkit-input-placeholder { /* Edge */
+                color: #fff;
+                font-family: 'droid';
+                font-size: 1.125rem;
+              }
+              
+              :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: #fff;
+                font-family: 'Droid';
+                font-size: 1.125rem;
+              }
+              
+              ::placeholder {
+                color: #fff;
+                font-family: 'Droid';
+                font-size: 1.125rem;
+              }
+        }
+        button{
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+            border-radius: 30px;
+            margin-top: 1.5rem;
+            width: 100%;
+            font-size: 1.125rem;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background: $secondary-color;
+                color: #fff;
+            }
+        }
+    }
+}

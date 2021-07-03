@@ -1,0 +1,8 @@
+﻿@import "../mixin/_base.scss";
+$left: left;
+$right: right;
+$direction: rtl;
+$font-default: 'GEFont';
+@import "../fonts/_fonts.scss";
+@import "../layouts/_layout.scss";
+@import "../components/_base.scss";

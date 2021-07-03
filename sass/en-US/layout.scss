@@ -1,0 +1,9 @@
+﻿@import "../mixin/_base.scss";
+$left: right;
+$right: left;
+$direction: ltr;
+$font-default:'SF Pro Display',
+'GEFont' !default;
+@import "../fonts/_fonts.scss";
+@import "../layouts/_layout.scss";
+@import "../components/_base.scss";
